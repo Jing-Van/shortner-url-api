@@ -2,6 +2,8 @@
 
 $ yarn startdev
 $ yarn test
+# Url table has been created and that the urls were inserted into the table.
+$ yarn runQuery
 
 [![Build Status](https://travis-ci.com/Jing-Van/shortner-url-api.svg?branch=master)](https://travis-ci.com/Jing-Van/shortner-url-api)
 
