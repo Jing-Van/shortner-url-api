@@ -1,8 +1,11 @@
 # Express API template
+# Express won’t be complete without talking about middleware.
+# this repo is mainly for shortner url demo, not implementing a middle ware in this case
 
 $ yarn startdev
 $ yarn test
 # Url table has been created and that the urls were inserted into the table.
+# If you’ve just run your test, remember to run yarn query to recreate the messages table.
 $ yarn runQuery
 
 [![Build Status](https://travis-ci.com/Jing-Van/shortner-url-api.svg?branch=master)](https://travis-ci.com/Jing-Van/shortner-url-api)
@@ -15,3 +18,6 @@ $ yarn runQuery
 
 [![Build status](https://ci.appveyor.com/api/projects/status/64c60ghkkyy8t6em?svg=true)](https://ci.appveyor.com/project/Jing-Van/shortner-url-api)
 
+
+#### postgres debug lines#### 
+delete from "public"."urls" where id = 3;

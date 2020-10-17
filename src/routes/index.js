@@ -11,12 +11,15 @@ import express from 'express';
 
 import { indexPage} from '../controllers';
 import {urlsPage} from '../controllers/urls';
+import {addUrl} from '../controllers/urls'
 
 const indexRouter = express.Router();
 
 indexRouter.get('/', indexPage);
 // add the get urls endpoint
 indexRouter.get('/urls', urlsPage)
+
+indexRouter.post('/urls', addUrl);
 
 export default indexRouter;
 
