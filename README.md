@@ -1,6 +1,11 @@
 # Express API template
 # Express won’t be complete without talking about middleware.
 # this repo is mainly for shortner url demo, not implementing a middle ware in this case
+# Todo
+# decoding short url
+# redirect from short url 
+#  So far my implementation is done locally with a cloud postgres db
+#  Will research more if this needs a delivery to the prod server
 
 $ yarn startdev
 $ yarn test
