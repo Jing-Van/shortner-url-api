@@ -3,10 +3,10 @@ Express won’t be complete without talking about middleware.
 this repo is mainly for shortner url demo, not implementing a middle ware in this case
 
 # post analysis
-spent too much time on travis CI and test coverage experiments since I am interested. 
+Spent too much time on travis CI and test coverage experiments since I am interested. 
 
 # Todo
-I am sure with more time, I will be able to research out the following 2 as well
+I am sure with more time, I will be able to research out the following 2 as well.
 Since I am a first time node js user, may I stop here, please? Thank you
 
 ## decoding short url
